@@ -22,3 +22,11 @@ yarn ios #ok
 yarn android #ok
 npx expo install react-native-permissions
 ```
+
+## Build
+### iOS
+```bash
+yarn clean
+yarn ios # is ok
+yarn ios -d # is ok
+```
