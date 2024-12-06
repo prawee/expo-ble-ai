@@ -30,3 +30,10 @@ yarn clean
 yarn ios # is ok
 yarn ios -d # is ok
 ```
+
+### Android
+```bash
+yarn clean
+yarn android # is broken
+yarn android -d # is broken
+```
