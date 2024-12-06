@@ -14,3 +14,11 @@ npx expo init expo-ble-simple || npx create-expo-app --template
 cd expo-ble-simple
 yarn start || yarn ios || yarn android
 ```
+
+## Install `BLE` Library
+```bash
+npx expo install react-native-ble-plx
+yarn ios #ok
+yarn android #ok
+npx expo install react-native-permissions
+```
