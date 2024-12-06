@@ -36,4 +36,9 @@ yarn ios -d # is ok
 yarn clean
 yarn android # is broken
 yarn android -d # is broken
+
+# fix
+cd android
+./gradlew clean
+./gradlew :app:bundleRelease # not working
 ```
